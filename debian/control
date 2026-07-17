@@ -1,14 +1,16 @@
 Source: live-config
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Uploaders: Deepin Packages Builder <packages@deepin.org>
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Uploaders: Raphaël Hertzog <raphael@offensive-security.com>,
+           Luca Boccassi <bluca@debian.org>,
            Jonathan Carter <jcc@debian.org>
 Section: misc
 Priority: optional
-Build-Depends: debhelper-compat (= 12)
+Build-Depends: debhelper-compat (= 13)
 Build-Depends-Indep: lsb-release
-Standards-Version: 4.5.1
-#Vcs-Browser
-#Vcs-Git
+Rules-Requires-Root: no
+Standards-Version: 4.7.0
+Vcs-Browser: https://salsa.debian.org/live-team/live-config
+Vcs-Git: https://salsa.debian.org/live-team/live-config.git
 Homepage: https://salsa.debian.org/live-team/live-config
 
 Package: live-config
