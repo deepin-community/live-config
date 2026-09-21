@@ -1,3 +1,9 @@
+live-config (11.0.5deepin1) unstable; urgency=medium
+
+  * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
+
+ -- tunaichao <tunaichao@uniontech.com>  Mon, 21 Sep 2026 15:49:04 +0800
+
 live-config (11.0.5) unstable; urgency=medium
 
   * d/control: bump Standards-Version to 4.7.0, no changes
